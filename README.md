@@ -1,4 +1,4 @@
-# PR Labeler Action
+# Checkbox Labeler
 
 ![GitHub](https://img.shields.io/github/license/sarhatabaot/pr-labeler-action?color=blue)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sarhatabaot/pr-labeler-action)

@@ -1,6 +1,6 @@
-name: 'PR Labeler'
+name: 'Checkbox Labeler'
 description: 'Add labels to a PR based on checkboxes in the description.'
-author: 'Your Name'
+author: 'sarhatabaot'
 
 inputs:
   github-token:
