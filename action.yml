@@ -2,6 +2,10 @@ name: 'Checkbox Labeler'
 description: 'Add labels to a PR based on checkboxes in the description.'
 author: 'sarhatabaot'
 
+branding:
+  icon: 'tag'
+  color: 'green'
+
 inputs:
   github-token:
     description: 'GitHub token for authentication'
