@@ -26,7 +26,7 @@ async function run() {
         const prBody = core.getInput('pr-body');
 
         // Read the configuration file
-        const configPath = '.github/pr-labels.yml';
+        const configPath = '.github/checkbox-labels.yml';
         if (!fs.existsSync(configPath)) {
             core.setFailed(`Configuration file not found: ${configPath}`);
             return;

@@ -10,7 +10,7 @@ A GitHub Action that allows users to add labels to pull requests (PRs) even if t
 ## Features
 
 - **Checkbox-Based Labeling**: Users can add labels by checking boxes in the PR description.
-- **Customizable Labels**: Define your own labels and checkboxes in a configuration file (`.github/pr-labels.yml`).
+- **Customizable Labels**: Define your own labels and checkboxes in a configuration file (`.github/checkbox-labels.yml`).
 - **No Write Access Required**: Contributors without write access can still add labels.
 
 ---
@@ -19,7 +19,7 @@ A GitHub Action that allows users to add labels to pull requests (PRs) even if t
 
 ### 1. Add the Configuration File
 
-Create a `.github/pr-labels.yml` file in your repository to define the labels and their corresponding checkboxes. For example:
+Create a `.github/checkbox-labels.yml` file in your repository to define the labels and their corresponding checkboxes. For example:
 
 ```yaml
 labels:
@@ -55,9 +55,9 @@ Select the appropriate labels for this PR:
 
 ### 3. Add the Workflow
 
-Add the following workflow to your repository (e.g., .github/workflows/pr-labeler.yml):
+Add the following workflow to your repository (e.g., .github/workflows/checkbox-labeler.yml):
 ```yml
-name: PR Labeler
+name: Checkbox Labeler
 
 on:
   pull_request:
